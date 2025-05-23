@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - Ну аптека!</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/registration.css">
+</head>
+<body>
+    <header>
+        <div class="firma">
+            <img class="logo" src="../images/18246203_v987-18a.svg" alt="Логотип Ну аптека!">
+            <h1 class="name">Ну аптека!</h1>
+            <nav class="main-menu center" aria-label="Основная навигация">
+                <a href="../index.html">Главная</a>
+                <a href="../pages/catalog.html">Каталог</a>
+                <a href="../pages/faq.html">FAQ</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="registration">
+            <h2 class="center main">Регистрация</h2>
+            <form class="registration-form">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Электронная почта:</label>
+                    <input type="email" id="email" name="email" required placeholder="Введите ваш email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required placeholder="Введите пароль">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Подтверждение пароля:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Подтвердите пароль">
+                </div>
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">Я согласен с <a href="#">условиями использования</a></label>
+                </div>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+            <p class="center login-link">Уже есть аккаунт? <a href="#">Войдите</a></p>
+        </section>
+    </main>
+    <footer>
+        <section id="contact" class="contact-box b-b">
+            <h2 class="center">Контакты</h2>
+            <p class="center">Адрес: Россия, Москва, ул. Ленина, д. 1</p>
+            <p class="center">Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+            <p class="center">Электронная почта: <a href="mailto:info@napteka.ru">info@napteka.ru</a></p>
+            <div class="social center">
+                <a href="#"><img class="icon" src="../images/facebook.png" alt="Facebook" aria-label="Перейти на страницу Facebook"></a>
+                <a href="#"><img class="icon" src="../images/instagram.png" alt="Instagram" aria-label="Перейти на страницу Instagram"></a>
+            </div>
+            <div class="map center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2253.520167798297!2d37.19696497717125!3d55.61036417303178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b556dedd0efbc1%3A0x74bc15fbe70fd062!2z0YPQuy4g0JvQtdC90LjQvdCwLCAxLCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTQzMzUw!5e0!3m2!1sru!2suk!4v1747815334757!5m2!1sru!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
